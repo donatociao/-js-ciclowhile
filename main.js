@@ -10,8 +10,6 @@ elenco.push(surname);
 //ordino i cognomi
 elenco.sort()
 
-
-
 //dichiaro variabile posizione
 var posizione = (elenco.indexOf(surname) + 1);
 
@@ -26,7 +24,8 @@ while (j < elenco.length){
   document.writeln(" </br>" + elenco[j]);
 
   //incremento indice
-  j++; }
+  j++;
+}
 
 //stampo la posizione del nuovo cognome inserito
 document.writeln("</br>Il tuo cognome è in posizione " + posizione + ".");
